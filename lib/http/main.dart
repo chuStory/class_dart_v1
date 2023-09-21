@@ -38,7 +38,7 @@ class Todo {
   final String title;
   final bool completed;
   // [ ]
-  // { } <-- 명명된 파리미터
+  // { } <-- 명명된 파라미터
   Todo(
       {required this.userId,
         required this.id,

@@ -10,7 +10,7 @@ void main() {
 //     print("Http Message Body ${res.body}");
 //   } );
 
-    // https://jsonplaceholder.typicode.com/todos/1
+    // https://jsonplaceholder.typicode.com/todos
     fetchTodoList().then((res) {
       print("http status code : ${res.statusCode}");
       print("----------------");
